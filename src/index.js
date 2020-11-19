@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 
 import reportWebVitals from "./reportWebVitals";
-import PorteFolio from "./components/PortFolio/portFolio";
+import PorteFolio from "./components/portFolio";
 
 ReactDOM.render(
   <React.StrictMode>
