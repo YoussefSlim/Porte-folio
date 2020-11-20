@@ -13,10 +13,18 @@ const NavBar = () => {
         <MenuOutlined />
       </button>
       <ul className="list-nav">
-        <li className="items">A propos de moi</li>
-        <li className="items">Compétences</li>
-        <li className="items">Portefolio</li>
-        <li className="items">Me contacter</li>
+        <li className="items">
+          <a href="#aboutMe">A propos de moi</a>
+        </li>
+        <li className="items">
+          <a href="#skills">Compétences</a>
+        </li>
+        <li className="items">
+          <a href="#projects">Portefolio</a>
+        </li>
+        <li className="items">
+          <a href="#contact">Contacter-moi</a>
+        </li>
       </ul>
     </div>
   );

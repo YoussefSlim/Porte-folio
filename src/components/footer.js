@@ -1,8 +1,7 @@
-import React from "react";
-
 const Footer = () => (
   <div className="bottom">
     <p>© 2020 Youssef Slim</p>
+    <p>Mentions légales </p>
   </div>
 );
 
